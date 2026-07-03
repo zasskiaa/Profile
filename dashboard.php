@@ -100,9 +100,9 @@ include 'koneksi.php';
     <button type="submit"
             class="btn-hapus">
         Hapus
-    </button>
+             </button>
 
-</form>
+             </form>
                 <td class="kolom-aksi">
 
                     <td class="kolom-aksi">
