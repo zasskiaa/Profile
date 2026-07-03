@@ -1,0 +1,151 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* WRAPPER */
+.wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* CONTAINER */
+.container{
+    width: 90%;
+    max-width: 900px;
+}
+
+/* CARD UTAMA */
+.card-profile{
+    background-color: white;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.card-profile:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+/* JUDUL */
+.main-title {
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+h3{
+    font-size: 24px;
+}
+
+/* PARAGRAF */
+p{
+    text-align: justify;
+    color: #555;
+    font-size: 13px;
+}
+
+/* GARIS */
+hr{
+    border: none;
+    height: 2px;
+    background-color: #dbe4f3;
+}
+
+/* KARTU HOBI */
+.bio-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    background-color: #eef3fb;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+    transition: all 0.3s ease;
+}
+
+.bio-item:hover{
+    background-color: #dde8fa;
+    transform: translateY(-5px);
+}
+
+/* FOTO */
+.picture{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10%;
+    border: 5px solid #dce6f5;
+    flex-shrink: 0;
+
+    transition: transform 0.4s ease;
+}
+
+.picture:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+/* TOMBOL KEMBALI */
+a{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #3d5994;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+
+    transition: all 0.3s ease;
+}
+
+a:hover{
+    background-color: #2f4675;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(61,89,148,0.3);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px){
+
+    .container{
+        width: 95%;
+    }
+
+    .card-profile{
+        padding: 20px;
+    }
+
+    .pfp{
+        width: 100%;
+        height: auto;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+}
+

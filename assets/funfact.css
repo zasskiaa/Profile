@@ -1,0 +1,137 @@
+/* 
+   RESET
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Segoe UI",sans-serif;
+    background:linear-gradient(135deg,#edf5ff,#dceeff);
+    color:#234;
+    padding:40px 20px;
+}
+
+/* JUDUL */
+
+h1{
+    text-align:center;
+    color:#0b4ea2;
+    margin-bottom:30px;
+    font-size:36px;
+}
+
+/*WRAPPER*/
+
+.wrapper{
+    width:1100px;
+    max-width:95%;
+    margin:auto;
+}
+
+/* INTRO */
+
+.intro-card{
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    text-align:center;
+    line-height:1.8;
+    box-shadow:0 8px 18px rgba(0,0,0,.12);
+    margin-bottom:35px;
+}
+
+.intro-card p{
+    font-size:16px;
+    color:#35506b;
+}
+
+/* GRID*/
+
+.facts{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+/* CARD */
+
+.fact-card{
+    background:white;
+    border-radius:18px;
+    padding:25px;
+    box-shadow:0 8px 18px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+.fact-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 30px rgba(0,0,0,.18);
+}
+
+.fact-card span{
+    font-size:45px;
+}
+
+.fact-card h3{
+    color:#0b4ea2;
+    margin:15px 0;
+    font-size:22px;
+}
+
+.fact-card p{
+    color:#35506b;
+    text-align:justify;
+    line-height:1.8;
+    font-size:15px;
+}
+
+/* BACK BUTTON */
+
+.back-btn{
+    display: block;
+    width: fit-content;
+    margin: 35px auto 10px;   
+    padding: 10px 24px;
+
+    text-decoration: none;
+    color: #0b4ea2;
+    background: transparent;
+    border: 2px solid #0b4ea2;
+    border-radius: 25px;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+
+.back-btn:hover{
+    background: #0b4ea2;
+    color: #fff;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    h1{
+        font-size:30px;
+    }
+
+    .facts{
+        grid-template-columns:1fr;
+    }
+
+    .fact-card{
+        padding:20px;
+    }
+
+    .fact-card h3{
+        font-size:20px;
+    }
+
+}
