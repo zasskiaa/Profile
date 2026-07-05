@@ -1,6 +1,4 @@
-/* ===========================
-   RESET
-=========================== */
+
 *{
     margin:0;
     padding:0;
@@ -14,9 +12,7 @@ body{
     padding:40px 15px;
 }
 
-/* ===========================
-   WRAPPER
-=========================== */
+/*  WRAPPER */
 
 .wrapper{
     display:flex;
@@ -24,9 +20,7 @@ body{
     align-items:center;
 }
 
-/* ===========================
-   CARD
-=========================== */
+/*  CARD */
 
 .card-profile{
     width:780px;
@@ -42,9 +36,7 @@ body{
     transform:translateY(-4px);
 }
 
-/* ===========================
-   FOTO PROFIL
-=========================== */
+/* FOTO PROFIL */
 
 .pfp{
     display:block;
@@ -57,9 +49,7 @@ body{
     box-shadow:0 10px 20px rgba(0,0,0,.15);
 }
 
-/* ===========================
-   DESKRIPSI
-=========================== */
+/* DESKRIPSI */
 
 .deskripsi{
     text-align:center;
@@ -68,9 +58,7 @@ body{
     margin-bottom:30px;
 }
 
-/* ===========================
-   JUDUL
-=========================== */
+/* JUDUL */
 
 .section-info h2{
     text-align:center;
@@ -80,9 +68,7 @@ body{
     letter-spacing:1px;
 }
 
-/* ===========================
-   GRID
-=========================== */
+/* GRID */
 
 .biodata-grid{
     display:grid;
@@ -90,9 +76,7 @@ body{
     gap:18px;
 }
 
-/* ===========================
-   ITEM BIODATA
-=========================== */
+/*  ITEM BIODATA */
 
 .bio-item{
     background:#f7fbff;
@@ -114,9 +98,7 @@ body{
     color:#1256b8;
 }
 
-/* ===========================
-   LINK SOSMED
-=========================== */
+/* LINK SOSMED */
 
 .btn-sosmed{
     color:#1565c0;
@@ -129,9 +111,7 @@ body{
     text-decoration:underline;
 }
 
-/* ===========================
-   FOOTER
-=========================== */
+/*  FOOTER*/
 
 footer{
     text-align:center;
@@ -139,9 +119,7 @@ footer{
     margin-top:20px;
 }
 
-/* ===========================
-   TOMBOL KEMBALI
-=========================== */
+/* TOMBOL KEMBALI*/
 
 .back-btn{
     display:block;
@@ -162,9 +140,7 @@ footer{
     transform:scale(1.05);
 }
 
-/* ===========================
-   RESPONSIVE
-=========================== */
+/* RESPONSIVE */
 
 @media (max-width:768px){
 
@@ -206,3 +182,5 @@ footer{
     }
 
 }
+
+/* @media adalah fitur pada CSS yang digunakan untuk mengatur tampilan website berdasarkan ukuran layar atau jenis perangkat. */

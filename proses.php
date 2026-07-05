@@ -13,7 +13,7 @@ if (isset($_POST['btn-kirim'])) {
     $pesan = trim($_POST['pesan']);
 
     $query_insert = "INSERT INTO pesan (nama, email, pesan)
-                     VALUES (?, ?, ?)";
+                        VALUES (?, ?, ?)";
 
     $stmt = mysqli_prepare($koneksi, $query_insert);
 
@@ -28,38 +28,29 @@ if (isset($_POST['btn-kirim'])) {
         );
 
         if (mysqli_stmt_execute($stmt)) {
-
             header("Location: pesan.php?status=sukses");
             exit();
-
         } else {
-
             echo "Gagal menyimpan data: "
-                 . mysqli_stmt_error($stmt);
-
+                    . mysqli_stmt_error($stmt);
         }
 
         mysqli_stmt_close($stmt);
-
-    } else {
-
+        } else {
         echo "Prepare gagal: "
-             . mysqli_error($koneksi);
-
+                . mysqli_error($koneksi);
     }
 }
 
+
 /* UPDATE PESAN */
 if (isset($_POST['btn_edit_pesan'])) {
-  
+
     $id = intval($_POST['id']);
-    
     $edit_pesan = trim($_POST['edit_pesan']);
-    
     $query_update = "UPDATE pesan SET pesan = ? WHERE id = ?";
     
     $stmt = mysqli_prepare($koneksi, $query_update);
-    
     if ($stmt) {
         mysqli_stmt_bind_param($stmt, "si", $edit_pesan, $id);
         
@@ -69,7 +60,6 @@ if (isset($_POST['btn_edit_pesan'])) {
         } else {
             echo "Gagal mengupdate data: " . mysqli_stmt_error($stmt);
         }
-        
         mysqli_stmt_close($stmt);
     } else {
         echo "Prepare gagal: " . mysqli_error($koneksi);
@@ -85,7 +75,6 @@ if (
 ) {
 
     $id = intval($_POST['id']);
-
     $query_delete = "DELETE FROM pesan WHERE id = ?";
 
     $stmt = mysqli_prepare(
@@ -94,13 +83,12 @@ if (
     );
 
     if ($stmt) {
-
         mysqli_stmt_bind_param(
             $stmt,
             "i",
             $id
         );
-
+        
         if (mysqli_stmt_execute($stmt)) {
 
             header("Location: dashboard.php");
@@ -109,20 +97,14 @@ if (
         } else {
 
             echo "Gagal menghapus data: "
-                 . mysqli_stmt_error($stmt);
-
+                    . mysqli_stmt_error($stmt);
         }
-
         mysqli_stmt_close($stmt);
-
     } else {
-
         echo "Prepare gagal: "
-             . mysqli_error($koneksi);
-
+                . mysqli_error($koneksi);
     }
 }
-
 mysqli_close($koneksi);
 
 ?>

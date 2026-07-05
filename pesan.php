@@ -70,82 +70,69 @@
 </head>
 <body>
 
-   <!-- <?php 
-        if(isset($_GET['status'])){
-            $status = $_GET['status'];
-            echo "<div style='background-color:#228B22; color: white; padding: 10px; border-radius: 35px; margin-bottom: 50px; text-align: center; font-size: 14px; '>" ;
-
-            if($status == "sukses"){
-                echo "Pesan anda berhasil ditambahkan!";
-            } 
-
-            echo "</div>";
-        }
-        
-        ?> -->
 
     <h2 class="main-title"><a href="dashboard.php" style="text-decoration: none; color: #007BFF">✨Form Kirim Pesan✨</a></h2>
 
-    <div class="container">
-        <div class="kotak-form">
+<div class="container">
+    <div class="kotak-form">
 
-            <form action="proses.php" method="POST">
+        <form action="proses.php" method="POST">
 
-            <?php 
-        if(isset($_GET['status'])){
+        <!-- NOTIFICATION -->
+        <?php 
+            if(isset($_GET['status'])){
             $status = $_GET['status'];
             echo "<div style='background-color:#228B22; color: white; padding: 7px; border-radius: 35px; margin-bottom: 50px; text-align: center; font-size: 14px; '>" ;
 
             if($status == "sukses"){
                 echo "Pesan anda berhasil ditambahkan!";
             } 
-
             echo "</div>";
-        }
-        
+            }
         ?>
 
+        <!-- INPUT FORM -->
                 <label>Nama Kamu</label>
                 <input type="text"
-                       name="nama"
-                       required
-                       placeholder="Masukkan nama Anda">
+                        name="nama"
+                        required
+                        placeholder="Masukkan nama Anda">
 
                 <label>Email</label>
                 <input type="email"
-                       name="email"
-                       required
-                       placeholder="contoh@gmail.com">
+                        name="email"
+                        required
+                        placeholder="contoh@gmail.com">
 
                 <label>Pesan yang Ingin Disampaikan</label>
                 <textarea name="pesan"
-                          required
-                          placeholder="Silakan tulis pesan Anda"></textarea>
+                            required
+                            placeholder="Silakan tulis pesan Anda"></textarea>
 
                 <button type="submit" name="btn-kirim">
                     Send Message
                 </button>
 
-               <br>
+                <br>
 
-              <a href="form.php" 
-            style="display:block; 
-        
-            text-align:center;
-            margin-top:10px; 
-            color: red; 
-            font-size: 13px;
-            text-decoration: none;
-            font-family: inherit;
-            ">
-            <b>Batal & kembali</b></a>
+                <!-- BUTTON KEMBALI -->
+            <a href="form.php" 
+                style="display:block; 
+            
+                text-align:center;
+                margin-top:10px; 
+                color: red; 
+                font-size: 13px;
+                text-decoration: none;
+                font-family: inherit;
+                ">
+                <b>Batal & kembali</b>
+            </a>
 
-                
+        </form>
 
-            </form>
-
-        </div>
     </div>
+</div>
 
 </body>
 </html>

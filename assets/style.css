@@ -60,7 +60,7 @@ body{
     letter-spacing: 1px;
 }
 
- .menu-item{
+.menu-item{
     background:white;
     padding:25px;
     border-radius:18px;
@@ -69,7 +69,6 @@ body{
     box-shadow:0 8px 18px rgba(0,0,0,.12);
     margin-bottom:35px;
 }
-
 
 
 /* Foto Profile */
@@ -121,7 +120,6 @@ a{
     background-color: #3b4a6b;
     border-radius: 10px;
     font-weight: 600;
-
     transition: all 0.3s ease;
 }
 
@@ -296,4 +294,4 @@ button:hover { background-color: #0056b3; }
     transform: scale(0.97);
 }
 
-
+/* @media adalah fitur pada CSS yang digunakan untuk mengatur tampilan website berdasarkan ukuran layar atau jenis perangkat. */

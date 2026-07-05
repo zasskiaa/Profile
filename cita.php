@@ -12,8 +12,8 @@
 
 <div class="wrapper">
 <div class="container">
-
 <div class="card-profile">
+
     <img src="foto/foto3.jpeg" alt="Foto Profil" class="profile-img">
 
     <hr class="divider">
@@ -26,23 +26,19 @@
 
     <hr class="divider">
 
-   
 
-   <!-- ==================== IMPIAN ==================== -->
+
+<!--  IMPIAN  -->
 <div class="bio-item">
-
     <img src="foto/foto1.jpeg" alt="Impian" class="bio-img">
-
     <div class="bio-content">
         <h3>🌟 Impianku</h3>
-
-        <div class="text-card">
+    <div class="text-card">
             <p>
                 Kalau ditanya apa impianku, jawabannya sederhana. Aku ingin menjadi
                 orang yang terus berkembang, membanggakan keluargaku, dan menjadi
                 pribadi yang percaya diri serta pantang menyerah.
             </p>
-
             <p>
                 Aku juga ingin memiliki banyak pengalaman, bertemu orang-orang baik,
                 dan terus belajar agar menjadi pribadi yang lebih dewasa. Aku percaya
@@ -50,74 +46,58 @@
                 menjadi kenyataan.
             </p>
         </div>
-
     </div>
-
 </div>
 
     
-    <!-- ==================== HARAPAN ==================== -->
+    <!-- HARAPAN  -->
 <div class="bio-item">
-
     <img src="foto/foto2.jpeg" alt="Harapan" class="bio-img">
-
     <div class="bio-content">
-        <h3>💙 Harapan</h3>
-
+    <h3>💙 Harapan</h3>
         <div class="text-card">
-
             <p>
                 Harapanku sederhana. Aku ingin menjadi pribadi yang lebih baik setiap
                 hari, terus belajar tanpa takut gagal, dan selalu berusaha memberikan
                 yang terbaik.
             </p>
-
             <p>
                 Aku berharap bisa membanggakan keluargaku, meraih cita-citaku,
                 dan selalu dikelilingi oleh orang-orang yang mendukungku.
                 Semoga setiap doa dan usaha membawaku menuju masa depan yang indah.
             </p>
-
         </div>
-
     </div>
-
 </div>
 
 <hr class="divider">
 <hr class="divider">
-    <!-- ==================== CITA-CITA ==================== -->
+
+
+    <!--  CITA-CITA -->
 
     <div class="zass">
     <div class="bio-item cita">
 
+    <!-- CITA-CITA ITEM -->
         <h3>🎯 Cita-Citaku</h3>
-
         <div class="card">
-
-            <img src="foto/gus_ De novo,amor by thalissa betineli.jpg" class="picture">
-
+        <img src="foto/gus_ De novo,amor by thalissa betineli.jpg" class="picture">
             <div>
-
                 <h4>🔭Peneliti / Astronom</h4>
-
                 <p>
                     Sejak kecil aku sangat tertarik dengan dunia luar angkasa.
                     Karena itu aku memiliki cita-cita menjadi seorang peneliti
                     atau astronom di <a href="https://www.nasa.gov/" target="_blank">NASA</a>.
                     Walaupun terdengar sulit, aku ingin terus berusaha mewujudkannya.
                 </p>
-
             </div>
-
         </div>
 
+
         <div class="card">
-
             <img src="foto/software.jpg" class="picture">
-
             <div>
-
                 <h4>👩‍💻Software Engineer</h4>
 
                 <p>
@@ -126,41 +106,36 @@
                     membuat website, aplikasi, dan berbagai program yang berguna
                     bagi banyak orang.
                 </p>
-
             </div>
-
         </div>
 
+
+
         <div class="card">
-
             <img src="foto/guru.jpg" class="picture">
-
             <div>
-
                 <h4>👩‍🏫Tenaga Pendidik</h4>
-
                 <p>
                     Aku juga ingin menjadi seorang guru karena menurutku profesi
                     ini sangat mulia. Aku berharap bisa menjadi pengajar yang
                     sabar, menginspirasi, dan memberikan semangat kepada setiap siswa.
                 </p>
-
             </div>
-
         </div>
 
-    </div>
 
     </div>
+    </div>
 
+<!-- FOOTER -->
     <footer>
         --- Thank You ---
     </footer>
 
+    <!-- BUTTON BACK -->
     <a href="form.php" class="back">← Back</a>
 
 </div>
-
 </div>
 </div>
 

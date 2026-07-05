@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-     <style>
+    <style>
         *{
             margin: 0;
             padding: 0;
@@ -132,29 +132,24 @@
 <body>
 
 <div class="wrapper">
-
     <div class="card-profile">
 
+    <!-- INTRO -->
         <h1 id="judul">✨MY GALLERY✨</h1>
-
         <img src="foto/profile.jpeg"
-             alt="pp"
-             class="poto-profile">
+            alt="pp"
+            class="poto-profile">
 
         <p style="font-size:13px;">
             <b>⁓</b> A RANDOM PICTURE  FROM MY GALLERY  <b>⁓</b>
         </p>
-
+<!-- MENU PILIHAN GALLERY -->
         <a href="osis.php">📍Organization & Competition</a>
-
         <a href="random.php">📸My Random Picts</a>
-
         <a href="video.php">🎥My Random Video</a>
 
     </div>
-
     <a href="form.php" class="back-btn"><- Back</a>
-
 </div>
 
 <a href="form.php">Back</a>

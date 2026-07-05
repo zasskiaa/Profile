@@ -13,23 +13,15 @@
 
     <!-- PUBLIC SPEAKING -->
     <div class="wrapper">
-
         <div class="card-profile">
-
             <img src="foto/gebyar.jpeg"
-                 alt="Public Speaking"
-                 class="poto-profile">
-
+                    alt="Public Speaking"
+                    ="poto-profile">
             <div class="bio-item">
 
-                
-
                 <div class="bio-content">
-
                     <h3>Public Speaking</h3>
-
                     <hr>
-
                     <p>
                         Aku bisa dibilang cukup mumpuni di bidang berbicara di depan umum.
                         Salah satu bukti nyatanya adalah ketika aku dipercaya menjadi
@@ -37,35 +29,25 @@
                         dan public speaking yang baik. Walaupun belum sebaik para profesional,
                         aku percaya kemampuan ini akan sangat berguna untuk masa depanku.
                     </p>
-
                 </div>
 
             </div>
-
         </div>
-
     </div>
 
-  <!-- KEPEMIMPINAN -->
+
+    <!-- KEPEMIMPINAN -->
 
     <div class="wrapper">
-
         <div class="card-profile">
-
             <img src="foto/KETOS.jpeg"
-                 alt="Ketua OSIS"
-                 class="poto-profile">
-
+                alt="Ketua OSIS"
+                class="poto-profile">
             <div class="bio-item">
 
-                
-
                 <div class="bio-content">
-
                     <h3>Kepemimpinan</h3>
-
                     <hr>
-
                     <p>
                         Sesuai dengan tipe MBTI-ku yaitu
                         <b>ENTJ-T (Commander)</b>
@@ -75,34 +57,24 @@
                         35 anggota. Pengalaman tersebut mengajarkanku untuk bertanggung
                         jawab, mengambil keputusan, serta bekerja sama dengan banyak orang.
                     </p>
-
                 </div>
 
             </div>
-
         </div>
-
     </div>
 
-   <!-- MENULIS -->
+
+    <!-- MENULIS -->
     <div class="wrapper">
-
         <div class="card-profile">
-
             <img src="foto/enhypen.jpg"
-                 alt="Menulis"
-                 class="poto-profile">
-
+                    alt="Menulis"
+                    class="poto-profile">
             <div class="bio-item">
-
-             
-
+    
                 <div class="bio-content">
-
                     <h3>Menulis</h3>
-
                     <hr>
-
                     <p>
                         Selain di bidang kepemimpinan, aku juga memiliki ketertarikan
                         dalam menulis. Aku senang merangkai kata menjadi tulisan yang
@@ -110,26 +82,20 @@
                         sebuah buku berjudul <b>"Just A Word"</b> yang telah mencapai
                         lebih dari <b>300 halaman</b>.
                     </p>
-
                     <a href="https://1drv.ms/w/c/64191eb3c668f5a0/IQB3ui4iMUObSaCoCMUfgkfgAXXQ_hyOck1q0FDh7ceSUw8?e=POA400"
-                       target="_blank">
+                        target="_blank">
 
                         📖 Lihat Buku "Just A Word"
-
                     </a>
-
                 </div>
 
             </div>
-
         </div>
-
     </div>
 
+
     <footer>
-
         <p>✨ Terima kasih telah melihat halaman keahlianku ✨</p>
-
     </footer>
 
     <a href="bio-ahli.php" class="back-btn">

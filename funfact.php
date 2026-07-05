@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="assets/funfact.css">
 </head>
 <body>
+    <!-- FUNFACTS INTRO -->
 
 <h1>✨ Fun Facts About Me ✨</h1>
 
 <div class="wrapper">
-
     <div class="intro-card">
         <p>
             Setiap orang memiliki sisi unik yang membuat dirinya berbeda.
@@ -19,9 +19,9 @@
             bisa membuatmu mengenalku lebih dekat. 😊
         </p>
     </div>
-
+    
+<!-- FUNFACTS ITEM -->
     <div class="facts">
-
         <div class="fact-card">
             <span>🌌</span>
             <h3>Astrophile</h3>
@@ -82,10 +82,8 @@
             <p>
                 Aku lebih fokus ketika belajar sambil mendengarkan musik
                 dengan volume yang tidak terlalu keras.
-            </p>
-            <br>
-            <a href="musik.php" style="text-align: center; text-decoration: none; background-color: #35506b; color: white; border-radius: 40px; padding: 5px;  transition: 0.3s ease;
-"> My Favorite Artist</a>
+            </p>  <br>
+            <a href="musik.php" style="text-align: center; text-decoration: none; background-color: #35506b; color: white; border-radius: 40px; padding: 5px;  transition: 0.3s ease;">          My Favorite Artist</a>
         </div>
 
         <div class="fact-card">
@@ -98,9 +96,7 @@
         </div>
 
     </div>
-
     <a href="form.php" class="back-btn">← Kembali</a>
-
 </div>
 
 </body>

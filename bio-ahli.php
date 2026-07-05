@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bio-ahli</title>
 
+    <!-- Style -->
     <style>
         *{
             margin: 0;
@@ -132,6 +133,7 @@
 </head>
 <body>
 
+
 <div class="wrapper">
 
     <div class="card-profile">
@@ -139,8 +141,8 @@
         <h1 id="judul">✨Hobi dan Keahlianku✨</h1>
 
         <img src="foto/profile.jpeg"
-             alt="pp"
-             class="poto-profile">
+                alt="pp"
+                class="poto-profile">
 
         <p style="font-size:13px;">
             Hai, namaku <strong>Zaskia.</strong><br>
@@ -149,6 +151,8 @@
             untuk mengetahui beberapa hal tentang diriku.
         </p>
 
+
+        <!-- Menu pilihan -->
         <a href="hobi.php">📍Hobi Ku</a>
 
         <a href="keahlian.php">💡Keahlianku</a>

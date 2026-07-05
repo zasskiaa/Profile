@@ -32,13 +32,12 @@ if (!$data_lama) {
                 
                 <label>Nama</label>
                 <input type="text" value="<?= htmlspecialchars($data_lama['nama']) ?>" readonly style="background-color: #eee;">
-
+                
                 <label>Email</label>
                 <input type="text" value="<?= htmlspecialchars($data_lama['email']) ?>" readonly style="background-color: #eee;">
-
+                
                 <label style="color: green; font-size: 16px;">Edit Pesan Anda</label>
 
-               
                 <textarea name="edit_pesan" required placeholder="Ketik ulang pesan anda disini" style="width:100%; padding:10px; border-radius:5px; border:1px solid #ccc; min-height:100px;"><?= htmlspecialchars($data_lama['pesan']) ?></textarea>
 
                 <button type="submit" name="btn_edit_pesan" style="background-color: green; margin-top:10px; padding:10px 20px; color:white; border:none; border-radius:5px; cursor:pointer;">Simpan Pesan</button>
