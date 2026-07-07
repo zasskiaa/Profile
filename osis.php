@@ -107,7 +107,7 @@
                     <div class="gallery-item">
                 <img src="galeri/random18.jpeg" alt="hi" > <br>
                     </div>
- 
+
         </div>
     </div>
     <br>
