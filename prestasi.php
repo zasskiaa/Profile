@@ -98,6 +98,10 @@ include 'koneksi.php'
         <p style="font-size:14.3px"> 
             Bergabung sebagai Anggota Pelajar Penggerak Merah Putih Batch 7 menjadi pengalaman yang sangat berharga bagiku. Program ini mengajarkanku tentang kepemimpinan, kerja sama, kedisiplinan, dan semangat untuk berkontribusi bagi lingkungan sekitar. Selain menambah wawasan, aku juga mendapatkan banyak teman serta pengalaman baru yang memotivasiku untuk terus berkembang dan menjadi pribadi yang lebih baik.
         </p>
+
+        <div class="image-gallery">
+            <img src="galeri/ppmp.jpeg"  class="pfp">
+        </div>
     </div>
 
 </div>
