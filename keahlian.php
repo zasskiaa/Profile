@@ -67,7 +67,7 @@
     <!-- MENULIS -->
     <div class="wrapper">
         <div class="card-profile">
-            <img src="foto/enhypen.jpg"
+            <img src="https://i.pinimg.com/736x/5f/1d/02/5f1d0213f5f3631661230bf9295695cb.jpg"
                     alt="Menulis"
                     class="poto-profile">
             <div class="bio-item">

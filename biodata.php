@@ -30,7 +30,7 @@
             <div class="bio-item"><strong>Tempat & tgl lahir: </strong> <br>Kijang, 20 Oct 2010</div>
             <div class="bio-item"><strong>Umur: </strong>1️⃣5️⃣</div>
             <div class="bio-item"><strong>Alamat: </strong>JL. Nusantara KM.18, Kabupaten Bintan, Kepulauan Riau</div>
-            <div class="bio-item"><strong>Pendidikan terakhir: </strong>SMPN 3 BINTAN</div>
+            <div class="bio-item"><strong>Pendidikan Sekarang: </strong>SMKN 4 TANJUNGPINANG (Jurusan:RPL)</div>
             <div class="bio-item"><strong>Favorite color: </strong>none. but I prefer blue and dark colors 💙🖤</div>
             <div class="bio-item"><strong>MBTI: </strong>ENTJ-T</div>
             <div class="bio-item"><strong>kontak Informasi: </strong><br>CP: +6285374168597</div>
