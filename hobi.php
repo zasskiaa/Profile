@@ -10,7 +10,7 @@
     <!-- JUDUL -->
     <br>
     <head>
-        <h2 style="text-align: center; color: #3d5994;">✨Hobi dan Keahlianku✨</h2>
+        <h2 style="text-align: center; color: #3d5994;">✨Hobiku✨</h2>
     </head>
 
     <!-- INTRO -->
